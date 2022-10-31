@@ -11,7 +11,7 @@ console.log(block);
 
 // console.log(block?.textContent);
 
-block?.textContent = '123'; /// dont work
+// block?.textContent = '123'; /// dont work
 
 console.log(1 + 2);
 
@@ -27,8 +27,7 @@ const userName = {
 userData?.say();
 
 if (userData && userData.skills && userData.skills.js) {
-    console.log(userData.skills.js);
-    
+    console.log(userData.skills.js); 
 }
 
 console.log(userData?.skills?.js);
